@@ -1,0 +1,49 @@
+CRITICAL - 2021-10-09 12:15:18 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:17:07 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:17:09 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:26:25 --> syntax error, unexpected token "}"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test/mostrar')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test/mostrar')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:26:31 --> syntax error, unexpected token "}"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test/mostrar')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test/mostrar')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:28:14 --> syntax error, unexpected token "}"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test/mostrar')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test/mostrar')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-09 12:28:17 --> syntax error, unexpected token "}"
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('test/mostrar')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('test/mostrar')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

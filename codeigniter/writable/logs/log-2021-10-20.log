@@ -1,0 +1,70 @@
+CRITICAL - 2021-10-20 00:16:46 --> Undefined variable $profissionao
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 85)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->computarAlteracao()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 00:19:51 --> foreach() argument must be of type array|object, int given
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 28)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 00:21:41 --> count(): Argument #1 ($var) must be of type Countable|array, int given
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 00:22:09 --> sizeof(): Argument #1 ($var) must be of type Countable|array, int given
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 00:23:00 --> Attempt to read property "count" on int
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 27)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 00:23:22 --> Call to a member function count() on int
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 00:27:02 --> foreach() argument must be of type array|object, int given
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 27)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

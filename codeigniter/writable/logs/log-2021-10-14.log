@@ -1,0 +1,141 @@
+CRITICAL - 2021-10-14 09:48:36 --> syntax error, unexpected token ":"
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:16:20 --> syntax error, unexpected token "."
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:17:03 --> Class "Models\Pessoa" not found
+#0 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-14 10:18:16 --> Class "Models\Pessoa" not found
+#0 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-14 10:19:12 --> syntax error, unexpected variable "$servername"
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pess...')
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pess...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:19:37 --> syntax error, unexpected token "var", expecting variable
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pess...')
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pess...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:19:47 --> syntax error, unexpected variable "$username"
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pess...')
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pess...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:20:07 --> Undefined variable $servername
+#0 /opt/lampp/htdocs/codeigniter/app/Models/Pessoa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 15)
+#1 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(35): App\Models\Pessoa->create(17, 'Maria Elzira', '12', 'Estudante')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-14 10:20:49 --> Undefined variable $conn
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 44)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-14 10:21:48 --> Undefined variable $conn
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 44)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-14 10:22:19 --> Undefined variable $conn
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 44)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->gravarDados()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-14 10:47:26 --> syntax error, unexpected token ","
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pess...')
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(49): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pess...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:48:02 --> Call to undefined method App\Models\Pessoa::lerDados()
+#0 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-14 10:48:21 --> syntax error, unexpected token "for"
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(57): view('dados', Array)
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:48:52 --> Unclosed '{' on line 15
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(57): view('dados', Array)
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-14 10:49:06 --> Undefined array key 5
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/opt/lampp/htdo...', 18)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(57): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-14 10:53:42 --> Undefined array key 5
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/opt/lampp/htdo...', 18)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(57): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

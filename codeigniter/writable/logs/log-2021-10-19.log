@@ -1,0 +1,56 @@
+CRITICAL - 2021-10-19 22:27:09 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 /opt/lampp/htdocs/codeigniter/app/Models/Pessoa.php(47): mysqli_num_rows(false)
+#1 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(50): App\Models\Pessoa->read()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-19 22:32:06 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 /opt/lampp/htdocs/codeigniter/app/Models/Pessoa.php(47): mysqli_num_rows(false)
+#1 /opt/lampp/htdocs/codeigniter/app/Controllers/FormularioController.php(50): App\Models\Pessoa->read()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-19 22:33:26 --> Class "App\Models\Pessoa" not found
+#0 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\FormularioController->lerDados()
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormularioController))
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-19 23:00:44 --> syntax error, unexpected token "if"
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prof...')
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(44): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prof...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-19 23:02:07 --> Undefined variable $dados
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 50)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-19 23:04:17 --> Undefined variable $id
+#0 /opt/lampp/htdocs/codeigniter/app/Views/dados.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 31)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1097): CodeIgniter\View\View->render('dados', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(50): view('dados', Array)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->ler()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-19 23:07:37 --> Call to undefined function App\Models\close()
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(59): App\Models\ProfissionalDAO->delete('2')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->deletar('2')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

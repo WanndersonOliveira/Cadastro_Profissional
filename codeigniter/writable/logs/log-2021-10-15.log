@@ -1,0 +1,21 @@
+CRITICAL - 2021-10-15 21:52:14 --> Class "App\Models\mysqli" not found
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(29): App\Models\ProfissionalDAO->create(Object(App\Models\Profissional))
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->cadastrar()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 21:53:22 --> Call to undefined function App\Models\mysql_query()
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(29): App\Models\ProfissionalDAO->create(Object(App\Models\Profissional))
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->cadastrar()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 21:53:55 --> Call to undefined function App\Models\mysql_query()
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/CadastroController.php(29): App\Models\ProfissionalDAO->create(Object(App\Models\Profissional))
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(824): App\Controllers\CadastroController->cadastrar()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroController))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
